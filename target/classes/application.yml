@@ -1,0 +1,10 @@
+
+clientService:
+  ribbon:
+    eureka:
+      enabled: false
+    listOfServers: localhost:8083,localhost:8084
+    ServerListRefreshInterval: 2000
+
+
+#ServerListRefreshInterval is the interval, between refreshes of Ribbon’s service list
